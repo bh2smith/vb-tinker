@@ -3,6 +3,8 @@
 To reproduce the results summarized below:
 
 ```sh
+git clone https://github.com/bh2smith/vb-tinker.git
+cd vb-tinker
 make install
 source venv/bin/activate
 cp .env.sample .env    <--- Fill out credentials here!
